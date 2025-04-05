@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 function App() {
   const [searchNumber, setSearchNumber] = useState("");
@@ -7,7 +7,6 @@ function App() {
   const [error, setError] = useState("");
   const [translation, setTranslation] = useState("ESV");
 
-  // Database of significant biblical numbers
   const numberDatabase = {
     1: {
       significance: "Unity, primacy, and the nature of God",
@@ -393,14 +392,12 @@ function App() {
     setLoading(false);
   };
 
-  // Function to handle Bible API integration (future enhancement)
+  /*
   const searchBibleForNumber = async (number) => {
-    // This would be implemented with a real Bible API
-    // For example, using the ESV API (https://api.esv.org/) or Bible.API (https://scripture.api.bible/)
     console.log(`Searching Bible for occurrences of number ${number}`);
-    // Return placeholder for now
     return [];
   };
+  */
 
   return (
     <div className="container mx-auto p-4 max-w-2xl">
