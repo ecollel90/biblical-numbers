@@ -10,9 +10,10 @@ An interactive tool that helps users explore the significance of numbers in the 
 
 ## How to Use
 
-1. Enter a number in the search field
-2. Click the "Search" button
-3. View the meaning, description, and scripture references
+1. Go to devinedigits.netlify.app
+2. Enter a number in the search field
+3. Click the "Search" button
+4. View the meaning, description, and scripture references
 
 ## Technologies Used
 
